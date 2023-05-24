@@ -1,0 +1,16 @@
+creating django project by using pipenv
+
+1.pip3 install --upgrade pipenv or if don't have any pipenv installed then install it by using pip3 install pipenv
+2.pipenv install django
+3.to activate working directory run commmand
+
+pipenv shell
+
+4.django-admin startproject myprojectresto . OR python3 manage.py startproject myprojectbook .
+5.django-admin manage.py startapp myappbook OR python3 manage.py startapp myappbook
+6.pipenv install djangorestframework
+
+setting.py
+'rest_framework'
+'myappBook'
+
